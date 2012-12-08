@@ -5,6 +5,7 @@
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
@@ -41,11 +42,12 @@
         </phone:Panorama>
         <Grid Grid.Row="1">
             
-            <phone:LongListSelector>
-                
-                
-                
-            </phone:LongListSelector>
+            <TextBox 
+                Background="Black"
+                Foreground="White"
+                TextAlignment="Center"
+                FontSize="40"
+                Text="Enter your hospital!"/>
             
         </Grid>
         
